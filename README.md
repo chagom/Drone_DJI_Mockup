@@ -28,6 +28,7 @@ https://developer.dji.com/mobile-sdk/documentation/introduction/component-guide-
 ```
 - Testing Radar
 - Communcation between the drone and radar (Spark: Wifi, Phantom 4: Lightbridge/Wifi? -> If the phantom 4 supports Wi-fi, ask DJI whether they support TCP protocol)
+  - https://developer.dji.com/mobile-sdk/documentation/ios-tutorials/BridgeAppDemo.html
   - Server-Client Binding (Should it be bi-directional?)
 - Calibration
 - 4 directional driving drone
