@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3FB0BD22DBD88B00FB5C52 /* Startup in Resources */ = {isa = PBXBuildFile; fileRef = 1D3FB0BC22DBD88B00FB5C52 /* Startup */; };
+		1D3FB0C022DBE4CC00FB5C52 /* DroneUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3FB0BF22DBE4CC00FB5C52 /* DroneUtility.m */; };
+		1D3FB0C622DBE5BA00FB5C52 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 1D3FB0C322DBE5B900FB5C52 /* Controller */; };
+		1D3FB0C722DBE5BA00FB5C52 /* Aircraft in Resources */ = {isa = PBXBuildFile; fileRef = 1D3FB0C422DBE5BA00FB5C52 /* Aircraft */; };
+		1D3FB0C822DBE5BA00FB5C52 /* Simulator in Resources */ = {isa = PBXBuildFile; fileRef = 1D3FB0C522DBE5BA00FB5C52 /* Simulator */; };
+		1D3FB0CB22DBE7A600FB5C52 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3FB0C922DBE7A600FB5C52 /* RootViewController.m */; };
+		1DF5897622DBCEE400133D88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5897522DBCEE400133D88 /* AppDelegate.m */; };
+		1DF5897C22DBCEE400133D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF5897A22DBCEE400133D88 /* Main.storyboard */; };
+		1DF5897F22DBCEE400133D88 /* AutonomousDriving.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5897D22DBCEE400133D88 /* AutonomousDriving.xcdatamodeld */; };
+		1DF5898122DBCEE600133D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF5898022DBCEE600133D88 /* Assets.xcassets */; };
+		1DF5898422DBCEE600133D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF5898222DBCEE600133D88 /* LaunchScreen.storyboard */; };
+		1DF5898722DBCEE600133D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5898622DBCEE600133D88 /* main.m */; };
+		1DF5899122DBCEE600133D88 /* AutonomousDrivingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5899022DBCEE600133D88 /* AutonomousDrivingTests.m */; };
+		1DF5899C22DBCEE600133D88 /* AutonomousDrivingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF5899B22DBCEE600133D88 /* AutonomousDrivingUITests.m */; };
+		D5A3B2DE05F1F6F1D40084E6 /* libPods-AutonomousDriving.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBBC2E53CF86A58C94B27C87 /* libPods-AutonomousDriving.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DF5898D22DBCEE600133D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF5896922DBCEE400133D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF5897022DBCEE400133D88;
+			remoteInfo = AutonomousDriving;
+		};
+		1DF5899822DBCEE600133D88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF5896922DBCEE400133D88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DF5897022DBCEE400133D88;
+			remoteInfo = AutonomousDriving;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3FB0BC22DBD88B00FB5C52 /* Startup */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Startup; sourceTree = "<group>"; };
+		1D3FB0BE22DBE4CC00FB5C52 /* DroneUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DroneUtility.h; sourceTree = "<group>"; };
+		1D3FB0BF22DBE4CC00FB5C52 /* DroneUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroneUtility.m; sourceTree = "<group>"; };
+		1D3FB0C322DBE5B900FB5C52 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
+		1D3FB0C422DBE5BA00FB5C52 /* Aircraft */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Aircraft; sourceTree = "<group>"; };
+		1D3FB0C522DBE5BA00FB5C52 /* Simulator */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Simulator; sourceTree = "<group>"; };
+		1D3FB0C922DBE7A600FB5C52 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1D3FB0CA22DBE7A600FB5C52 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1DF5897122DBCEE400133D88 /* AutonomousDriving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutonomousDriving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5897422DBCEE400133D88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DF5897522DBCEE400133D88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DF5897B22DBCEE400133D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DF5897E22DBCEE400133D88 /* AutonomousDriving.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutonomousDriving.xcdatamodel; sourceTree = "<group>"; };
+		1DF5898022DBCEE600133D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DF5898322DBCEE600133D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DF5898522DBCEE600133D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF5898622DBCEE600133D88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DF5898C22DBCEE600133D88 /* AutonomousDrivingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutonomousDrivingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5899022DBCEE600133D88 /* AutonomousDrivingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutonomousDrivingTests.m; sourceTree = "<group>"; };
+		1DF5899222DBCEE600133D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DF5899722DBCEE600133D88 /* AutonomousDrivingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutonomousDrivingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5899B22DBCEE600133D88 /* AutonomousDrivingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutonomousDrivingUITests.m; sourceTree = "<group>"; };
+		1DF5899D22DBCEE600133D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D8A3AF9874F9801B04FF6CD /* Pods-AutonomousDriving.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutonomousDriving.debug.xcconfig"; path = "Target Support Files/Pods-AutonomousDriving/Pods-AutonomousDriving.debug.xcconfig"; sourceTree = "<group>"; };
+		55321D1B0C84E8C31BB6A596 /* Pods-AutonomousDriving.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutonomousDriving.release.xcconfig"; path = "Target Support Files/Pods-AutonomousDriving/Pods-AutonomousDriving.release.xcconfig"; sourceTree = "<group>"; };
+		EBBC2E53CF86A58C94B27C87 /* libPods-AutonomousDriving.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AutonomousDriving.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DF5896E22DBCEE400133D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5A3B2DE05F1F6F1D40084E6 /* libPods-AutonomousDriving.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF5898922DBCEE600133D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF5899422DBCEE600133D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DF5896822DBCEE400133D88 = {
+			isa = PBXGroup;
+			children = (
+				1DF5897322DBCEE400133D88 /* AutonomousDriving */,
+				1DF5898F22DBCEE600133D88 /* AutonomousDrivingTests */,
+				1DF5899A22DBCEE600133D88 /* AutonomousDrivingUITests */,
+				1DF5897222DBCEE400133D88 /* Products */,
+				BFB6D17DEC5B9923AEFBAE1A /* Pods */,
+				99D243AFA1773588F14FE80F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1DF5897222DBCEE400133D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5897122DBCEE400133D88 /* AutonomousDriving.app */,
+				1DF5898C22DBCEE600133D88 /* AutonomousDrivingTests.xctest */,
+				1DF5899722DBCEE600133D88 /* AutonomousDrivingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DF5897322DBCEE400133D88 /* AutonomousDriving */ = {
+			isa = PBXGroup;
+			children = (
+				1D3FB0C422DBE5BA00FB5C52 /* Aircraft */,
+				1D3FB0C322DBE5B900FB5C52 /* Controller */,
+				1D3FB0C522DBE5BA00FB5C52 /* Simulator */,
+				1D3FB0BC22DBD88B00FB5C52 /* Startup */,
+				1DF5897422DBCEE400133D88 /* AppDelegate.h */,
+				1DF5897522DBCEE400133D88 /* AppDelegate.m */,
+				1D3FB0CA22DBE7A600FB5C52 /* RootViewController.h */,
+				1D3FB0C922DBE7A600FB5C52 /* RootViewController.m */,
+				1DF5897A22DBCEE400133D88 /* Main.storyboard */,
+				1DF5898022DBCEE600133D88 /* Assets.xcassets */,
+				1DF5898222DBCEE600133D88 /* LaunchScreen.storyboard */,
+				1DF5898522DBCEE600133D88 /* Info.plist */,
+				1DF5898622DBCEE600133D88 /* main.m */,
+				1DF5897D22DBCEE400133D88 /* AutonomousDriving.xcdatamodeld */,
+				1D3FB0BE22DBE4CC00FB5C52 /* DroneUtility.h */,
+				1D3FB0BF22DBE4CC00FB5C52 /* DroneUtility.m */,
+			);
+			path = AutonomousDriving;
+			sourceTree = "<group>";
+		};
+		1DF5898F22DBCEE600133D88 /* AutonomousDrivingTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5899022DBCEE600133D88 /* AutonomousDrivingTests.m */,
+				1DF5899222DBCEE600133D88 /* Info.plist */,
+			);
+			path = AutonomousDrivingTests;
+			sourceTree = "<group>";
+		};
+		1DF5899A22DBCEE600133D88 /* AutonomousDrivingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5899B22DBCEE600133D88 /* AutonomousDrivingUITests.m */,
+				1DF5899D22DBCEE600133D88 /* Info.plist */,
+			);
+			path = AutonomousDrivingUITests;
+			sourceTree = "<group>";
+		};
+		99D243AFA1773588F14FE80F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBBC2E53CF86A58C94B27C87 /* libPods-AutonomousDriving.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFB6D17DEC5B9923AEFBAE1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D8A3AF9874F9801B04FF6CD /* Pods-AutonomousDriving.debug.xcconfig */,
+				55321D1B0C84E8C31BB6A596 /* Pods-AutonomousDriving.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DF5897022DBCEE400133D88 /* AutonomousDriving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF589A022DBCEE600133D88 /* Build configuration list for PBXNativeTarget "AutonomousDriving" */;
+			buildPhases = (
+				73CACF582A9ECF6C6D2E600E /* [CP] Check Pods Manifest.lock */,
+				1DF5896D22DBCEE400133D88 /* Sources */,
+				1DF5896E22DBCEE400133D88 /* Frameworks */,
+				1DF5896F22DBCEE400133D88 /* Resources */,
+				043948D764B7F351740D1372 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutonomousDriving;
+			productName = AutonomousDriving;
+			productReference = 1DF5897122DBCEE400133D88 /* AutonomousDriving.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DF5898B22DBCEE600133D88 /* AutonomousDrivingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF589A322DBCEE600133D88 /* Build configuration list for PBXNativeTarget "AutonomousDrivingTests" */;
+			buildPhases = (
+				1DF5898822DBCEE600133D88 /* Sources */,
+				1DF5898922DBCEE600133D88 /* Frameworks */,
+				1DF5898A22DBCEE600133D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF5898E22DBCEE600133D88 /* PBXTargetDependency */,
+			);
+			name = AutonomousDrivingTests;
+			productName = AutonomousDrivingTests;
+			productReference = 1DF5898C22DBCEE600133D88 /* AutonomousDrivingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DF5899622DBCEE600133D88 /* AutonomousDrivingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DF589A622DBCEE600133D88 /* Build configuration list for PBXNativeTarget "AutonomousDrivingUITests" */;
+			buildPhases = (
+				1DF5899322DBCEE600133D88 /* Sources */,
+				1DF5899422DBCEE600133D88 /* Frameworks */,
+				1DF5899522DBCEE600133D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DF5899922DBCEE600133D88 /* PBXTargetDependency */,
+			);
+			name = AutonomousDrivingUITests;
+			productName = AutonomousDrivingUITests;
+			productReference = 1DF5899722DBCEE600133D88 /* AutonomousDrivingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DF5896922DBCEE400133D88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "GoEum Cha";
+				TargetAttributes = {
+					1DF5897022DBCEE400133D88 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					1DF5898B22DBCEE600133D88 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1DF5897022DBCEE400133D88;
+					};
+					1DF5899622DBCEE600133D88 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1DF5897022DBCEE400133D88;
+					};
+				};
+			};
+			buildConfigurationList = 1DF5896C22DBCEE400133D88 /* Build configuration list for PBXProject "AutonomousDriving" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DF5896822DBCEE400133D88;
+			productRefGroup = 1DF5897222DBCEE400133D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DF5897022DBCEE400133D88 /* AutonomousDriving */,
+				1DF5898B22DBCEE600133D88 /* AutonomousDrivingTests */,
+				1DF5899622DBCEE600133D88 /* AutonomousDrivingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DF5896F22DBCEE400133D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3FB0C822DBE5BA00FB5C52 /* Simulator in Resources */,
+				1DF5898422DBCEE600133D88 /* LaunchScreen.storyboard in Resources */,
+				1DF5898122DBCEE600133D88 /* Assets.xcassets in Resources */,
+				1D3FB0C722DBE5BA00FB5C52 /* Aircraft in Resources */,
+				1D3FB0BD22DBD88B00FB5C52 /* Startup in Resources */,
+				1D3FB0C622DBE5BA00FB5C52 /* Controller in Resources */,
+				1DF5897C22DBCEE400133D88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF5898A22DBCEE600133D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF5899522DBCEE600133D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		043948D764B7F351740D1372 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutonomousDriving/Pods-AutonomousDriving-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+				"${PODS_ROOT}/DJIWidget/FFmpeg/FFmpeg.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFmpeg.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutonomousDriving/Pods-AutonomousDriving-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73CACF582A9ECF6C6D2E600E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutonomousDriving-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DF5896D22DBCEE400133D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3FB0C022DBE4CC00FB5C52 /* DroneUtility.m in Sources */,
+				1DF5897F22DBCEE400133D88 /* AutonomousDriving.xcdatamodeld in Sources */,
+				1DF5898722DBCEE600133D88 /* main.m in Sources */,
+				1DF5897622DBCEE400133D88 /* AppDelegate.m in Sources */,
+				1D3FB0CB22DBE7A600FB5C52 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF5898822DBCEE600133D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF5899122DBCEE600133D88 /* AutonomousDrivingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF5899322DBCEE600133D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF5899C22DBCEE600133D88 /* AutonomousDrivingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DF5898E22DBCEE600133D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF5897022DBCEE400133D88 /* AutonomousDriving */;
+			targetProxy = 1DF5898D22DBCEE600133D88 /* PBXContainerItemProxy */;
+		};
+		1DF5899922DBCEE600133D88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DF5897022DBCEE400133D88 /* AutonomousDriving */;
+			targetProxy = 1DF5899822DBCEE600133D88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DF5897A22DBCEE400133D88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF5897B22DBCEE400133D88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DF5898222DBCEE600133D88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DF5898322DBCEE600133D88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DF5899E22DBCEE600133D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DF5899F22DBCEE600133D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DF589A122DBCEE600133D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8A3AF9874F9801B04FF6CD /* Pods-AutonomousDriving.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF763V3Z8J;
+				INFOPLIST_FILE = AutonomousDriving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purdue.ADD.AutonomousDriving;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DF589A222DBCEE600133D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55321D1B0C84E8C31BB6A596 /* Pods-AutonomousDriving.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF763V3Z8J;
+				INFOPLIST_FILE = AutonomousDriving/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purdue.ADD.AutonomousDriving;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1DF589A422DBCEE600133D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF763V3Z8J;
+				INFOPLIST_FILE = AutonomousDrivingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purdue.ADD.AutonomousDrivingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutonomousDriving.app/AutonomousDriving";
+			};
+			name = Debug;
+		};
+		1DF589A522DBCEE600133D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF763V3Z8J;
+				INFOPLIST_FILE = AutonomousDrivingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purdue.ADD.AutonomousDrivingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutonomousDriving.app/AutonomousDriving";
+			};
+			name = Release;
+		};
+		1DF589A722DBCEE600133D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF763V3Z8J;
+				INFOPLIST_FILE = AutonomousDrivingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purdue.ADD.AutonomousDrivingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutonomousDriving;
+			};
+			name = Debug;
+		};
+		1DF589A822DBCEE600133D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MF763V3Z8J;
+				INFOPLIST_FILE = AutonomousDrivingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.purdue.ADD.AutonomousDrivingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AutonomousDriving;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DF5896C22DBCEE400133D88 /* Build configuration list for PBXProject "AutonomousDriving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF5899E22DBCEE600133D88 /* Debug */,
+				1DF5899F22DBCEE600133D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF589A022DBCEE600133D88 /* Build configuration list for PBXNativeTarget "AutonomousDriving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF589A122DBCEE600133D88 /* Debug */,
+				1DF589A222DBCEE600133D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF589A322DBCEE600133D88 /* Build configuration list for PBXNativeTarget "AutonomousDrivingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF589A422DBCEE600133D88 /* Debug */,
+				1DF589A522DBCEE600133D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DF589A622DBCEE600133D88 /* Build configuration list for PBXNativeTarget "AutonomousDrivingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DF589A722DBCEE600133D88 /* Debug */,
+				1DF589A822DBCEE600133D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1DF5897D22DBCEE400133D88 /* AutonomousDriving.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1DF5897E22DBCEE400133D88 /* AutonomousDriving.xcdatamodel */,
+			);
+			currentVersion = 1DF5897E22DBCEE400133D88 /* AutonomousDriving.xcdatamodel */;
+			path = AutonomousDriving.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1DF5896922DBCEE400133D88 /* Project object */;
+}

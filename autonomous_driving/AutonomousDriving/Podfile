@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'AutonomousDriving' do
+pod 'DJI-SDK-iOS', '~> 4.9.1'
+pod 'DJIWidget', '~> 1.2'
+end
